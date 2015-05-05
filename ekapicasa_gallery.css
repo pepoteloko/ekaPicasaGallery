@@ -1,0 +1,90 @@
+/********************************************
+* Album List                                *
+********************************************/
+#eka-album-list {
+
+}
+#eka-album-list a {
+	color: #7d695a;
+    font-family: "lato",sans-serif;
+    font-style: normal;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+#eka-album-list a:hover {
+	color: #78312f;
+	text-decoration: underline;
+}
+
+/********************************************
+* Picture list (in an album)                *
+********************************************/
+/* the "Back to album list" link container */
+div#kpg-backLink {
+	padding-bottom: 20px;
+}
+
+/* the box with the album description */
+div#kpg-album-description {
+	padding: 10px;
+	margin-bottom: 30px;
+	background-color: #FFFFE1;
+	border: solid 1px #CECF8E;
+}
+
+/* the album title */
+div#kpg-album-description div#kpg-title {
+	font-weight: bold;
+}
+
+/* the album summary */
+div#kpg-album-description div#kpg-summary {
+}
+
+/* the album location */
+div#kpg-album-description div#kpg-location {
+	font-style: italic;
+}
+
+/* the album's published timestamp */
+div#kpg-album-description div#kpg-published {
+}
+
+/* the number of photos in the album */
+div#kpg-album-description div#kpg-nbPhotos {
+	margin-top: 15px;
+}
+
+/********************************************
+* Paginator                                 *
+********************************************/
+/* block containing the paginator */
+#eka-paginator {
+	text-align: center;
+}
+/* pàgines normals */
+#eka-paginator .pagination > li > a,
+#eka-paginator .pagination > li > span {
+	border: 1px solid #7d695a;
+	color: #7d695a;
+}
+/* pàgina activa */
+#eka-paginator .pagination > .active > a,
+#eka-paginator .pagination > .active > span,
+#eka-paginator .pagination > .active > a:hover,
+#eka-paginator .pagination > .active > span:hover,
+#eka-paginator .pagination > .active > a:focus,
+#eka-paginator .pagination > .active > span:focus {
+	background-color: #7d695a;
+    border-color: #7d695a;
+    color: #fff;
+}
+/* apagat */
+#eka-paginator .pagination > .disabled > a,
+#eka-paginator .pagination > .disabled > span,
+#eka-paginator .pagination > .disabled > a:hover,
+#eka-paginator .pagination > .disabled > span:hover,
+#eka-paginator .pagination > .disabled > a:focus,
+#eka-paginator .pagination > .disabled > span:focus {
+
+}
